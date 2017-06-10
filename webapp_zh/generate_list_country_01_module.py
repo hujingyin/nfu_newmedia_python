@@ -19,6 +19,6 @@ def classtime_name(c_code=''):
     c_name =  d.get(c_code, None)
     return (c_name)
 
-#測試   
+  
 
  
