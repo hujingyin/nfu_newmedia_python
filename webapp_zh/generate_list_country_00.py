@@ -14,8 +14,7 @@ print (list_dict_classtime)
 
 
 # 使用csv模块，将国家代码及简中国家名称数据输出至data\class.tsv备用
-# 英： https://docs.python.org/3/library/csv.html#csv.DictWriter
-# 中： http://python.usyiyi.cn/translate/python_352/library/csv.html
+
 import csv
 with open('data\classtime.tsv', 'w', encoding='utf8') as csvfile:
     fieldnames = ['c_code', 'c_name']
