@@ -18,7 +18,7 @@ def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
                            the_list_items = c_list ,
-                           the_title='欢迎来到网上查找中山大学南方学院老师课程表！')
+                           the_title='欢迎来到网上查找中山大学南方学院音乐系与文传系老师课程表！')
 
 @app.route('/pick_a_schedule', methods=['POST'])
 def pick_a_color() -> 'html':
