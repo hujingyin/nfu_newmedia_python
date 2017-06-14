@@ -6,7 +6,7 @@ class classtime_list_name (object):
 
     def __init__(self, fn='data\classtime.tsv'):
        import csv
-       with open(fn, 'r') as csvfile:
+       with open(fn, 'r',encoding='utf8') as csvfile:
            reader = csv.DictReader(csvfile, fieldnames=['c_code', 'c_name'], delimiter='\t')
            fieldnames = reader.fieldnames
 
