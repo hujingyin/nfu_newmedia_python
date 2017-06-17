@@ -55,7 +55,7 @@ border-collapse:    collapse;
 }
 
 td, th {
-border:             thin dotted gray;
+border:             thin dotted white;
 }
 
 /*** Inputs ***/
