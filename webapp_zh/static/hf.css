@@ -4,8 +4,8 @@ body {
   background:       url(nice12.jpg) center center;
   margin-top:       10%;
   margin-bottom:    10%;
-  margin-left:      6%;
-  margin-right:     10%;
+  margin-left:      8%;
+  margin-right:     12%;
   padding:          10px 10px 10px 10px;
 }
 a {
@@ -49,7 +49,7 @@ table {
 font-size:          1em;
 background-color:   #fafcff;
 border:             1px solid #909090;
-color:              #2a2a2a;
+color:              #ff3366;
 padding:            5px 5px 2px;
 border-collapse:    collapse;
 }
