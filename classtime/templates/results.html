@@ -1,0 +1,13 @@
+﻿{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h3>
+
+<p>您选取的是：</p>
+<table>
+<tr><td>课程名称：</td><td>{{ the_classtime_code }}</td></tr>
+<tr><td>上限人数：</td><td>{{ the_classtime_name}}</td></tr>
+</table>
+
+{% endblock %}
