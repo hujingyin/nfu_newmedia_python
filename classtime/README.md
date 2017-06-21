@@ -14,12 +14,12 @@ pick_a_country4web.py
 ### 模块
 * [tsv](http://www.52ij.com/jishu/python/12449.html)
 * [csv](http://www.cnblogs.com/nisen/p/6155492.html)
-
-
+*[pandas](http://www.jb51.net/article/63216.htm)
+*[pandas读xls](http://www.cnblogs.com/lhj588/archive/2012/01/06/2314181.html)
 ### 数据
-* 老师提供的TXT文档课程表
+* 老师提供的xls文档课程表
 ### API
-* [github](https://api.github.com/)
+
 
 ## 作者成员：
 见[_team_.tsv](https://github.com/hujingyin/repo-C-/blob/master/_team_.tsv)
