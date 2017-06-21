@@ -1,9 +1,7 @@
 pick_a_schedule_4web.py
 
 # 简介 
-操练Python语言开发练习：使用flask
-
-
+我们用pandas读xls文档，把读好的整个资料筛选出，然后把想要的资料写入和读入一个新的tsv文档，把tsv文档供webapp使用，其中我们也用到了把tsv转化为csv。
 		
 
 ## 输入：
