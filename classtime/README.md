@@ -1,7 +1,7 @@
 pick_a_schedule_4web.py
 
 # 简介 
-选取的颜色，操练Python语言开发练习：使用flask
+操练Python语言开发练习：使用flask
 
 
 		
