@@ -41,4 +41,4 @@ pick_a_schedule_4web.py
 
 
 ## 作者成员：
-见[_team_.tsv](https://github.com/hujingyin/repo-C-/blob/master/_team_.tsv)
+见[_team_.tsv](https://github.com/hujingyin/nfu_newmedia_python/blob/master/%E4%BA%8CC%E7%BB%84/_team_/_team_.tsv)
