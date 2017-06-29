@@ -26,7 +26,7 @@ def pick_a_color() -> 'html':
 	want_zy=[i for i in want_xy if user_classtime_subject in i]   #读入我想要的专业
 	want_class=[i for i in want_zy if user_classtime_user_class in i]   #读入我想要的课程
 	result_class=[]
-	for i in range(len(set(want_class))):
+	for i in range(len(set(want_class))):  #用for循环
 		u=str(i+1)
 		kechen=want_class[i].split('\t')[6]
 		time_min=want_class[i].split('\t')[4]
@@ -38,7 +38,8 @@ def pick_a_color() -> 'html':
 		qizhizhou_divide_1=qizhizhou_divide[0]
 		qizhizhou_divide_2=qizhizhou_divide[1]
 		jieguo='你筛选的课第'+u+'个有“'+kechen+'”，它从第'+qizhizhou_divide_1+'周开始到第'+qizhizhou_divide_2+'周结束，一周需要'+zhoushi+'个学时，共计'+xuefen+'个学分，人数下限为'+time_min+'人和上限为'+time_max+'人'
-		result_class.append(jieguo)
+		  #我的结果由以上jieguo组合成
+		result_class.append(jieguo) #最后呈现的结果
 		result_class=sorted(result_class)
 		result_class_1=set(result_class)
 		
