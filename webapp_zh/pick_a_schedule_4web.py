@@ -17,10 +17,10 @@ def entry_page() -> 'html':
 
 @app.route('/pick_a_schedule', methods=['POST'])
 def pick_a_color() -> 'html':
-	user_classtime_yuanxi= request.form['user_yuanxi']
-	user_classtime_subject= request.form['user_subject']
-	user_classtime_user_class= request.form['user_class']	
-	with open('cleaned_data.tsv', 'r', encoding='utf8') as class_data:
+	user_classtime_yuanxi= request.form['user_yuanxi']    #输入院系
+	user_classtime_subject= request.form['user_subject']   #输入专业
+	user_classtime_user_class= request.form['user_class']	#输入课程
+	with open('cleaned_data.tsv', 'r', encoding='utf8') as class_data:    #打开文件
 		line = class_data.readlines()
 	want_xy=[i for i in line if user_classtime_yuanxi in i]
 	want_zy=[i for i in want_xy if user_classtime_subject in i]
