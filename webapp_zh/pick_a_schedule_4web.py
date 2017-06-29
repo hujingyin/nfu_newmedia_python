@@ -21,10 +21,10 @@ def pick_a_color() -> 'html':
 	user_classtime_subject= request.form['user_subject']   #输入专业
 	user_classtime_user_class= request.form['user_class']	#输入课程
 	with open('cleaned_data.tsv', 'r', encoding='utf8') as class_data:    #打开文件
-		line = class_data.readlines()
-	want_xy=[i for i in line if user_classtime_yuanxi in i]
-	want_zy=[i for i in want_xy if user_classtime_subject in i]
-	want_class=[i for i in want_zy if user_classtime_user_class in i]
+		line = class_data.readlines()   #读取资料
+	want_xy=[i for i in line if user_classtime_yuanxi in i]   #读入我想要的院系
+	want_zy=[i for i in want_xy if user_classtime_subject in i]   #读入我想要的专业
+	want_class=[i for i in want_zy if user_classtime_user_class in i]   #读入我想要的课程
 	result_class=[]
 	for i in range(len(set(want_class))):
 		u=str(i+1)
